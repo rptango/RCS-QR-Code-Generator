@@ -1,0 +1,134 @@
+body {
+    max-width: 100%;
+    font-family: "system-ui", system-ui;
+    font-size: 14pt;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.subtitle {
+    max-width: 860px;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-size: 13pt;
+    color: #444;
+    padding: 0 16px;
+}
+
+#generator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 16px 40px;
+}
+
+#form-box {
+    background-color: #211c1c;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 380px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: block;
+    font-size: Large;
+    font-variant: all-petite-caps;
+    padding-bottom: 5px;
+    margin-top: 14px;
+}
+
+.label .required {
+    color: #ff8a80;
+    font-size: 10pt;
+    font-variant: normal;
+}
+
+.label .optional {
+    color: #999;
+    font-size: 10pt;
+    font-variant: normal;
+}
+
+#form-box input[type="text"],
+#form-box textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12pt;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+#form-box textarea {
+    resize: vertical;
+    min-height: 5em;
+}
+
+#form-box input[type="file"] {
+    color: white;
+}
+
+#form-box button {
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.hint {
+    color: #ccc;
+    font-size: 10pt;
+    word-break: break-all;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.hint.error {
+    color: #ff8a80;
+}
+
+#qr-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+#qr-container {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#download-btn {
+    padding: 8px 16px;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+#resources {
+    max-width: 860px;
+    margin: 0 auto 40px;
+    text-align: center;
+    padding: 0 16px;
+}
+
+#resources > .label {
+    margin-top: 0;
+}
+
+#resources a {
+    color: #0263E0;
+    margin: 0 12px;
+}
